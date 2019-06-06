@@ -1,39 +1,45 @@
 .box {
-    margin: 5px;
-    margin-bottom: 35px;
-    box-shadow: 10px 10px 5px grey;
+	margin: 5px;
+	margin-bottom: 35px;
+	box-shadow: 10px 10px 5px grey;
 }
 .boxTitle {
-    height: 60px;
-    background-color: #000000;
-    color: white;
-    padding-top: 12px;
-    padding-left: 10px;
-    display: flex;
+	height: 60px;
+	background-color: #000000;
+	color: white;
+	padding-top: 12px;
+	padding-left: 10px;
+	display: flex;
 }
 h3 {
-    margin-top: 0px;
-    margin-bottom: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 .boxTitleText {
-    width: 100%;
-    float: left;
+	width: 100%;
+	float: left;
 }
 .boxTitleInfo {
-    float: right;
-    padding-top: 3px;
-    padding-right: 12px;
+	float: right;
+	height: 100px;
+	width: 100px;
+	overflow: hidden;
+}
+.infoIcon {
+	background: url("../assets/infoIconMeltAnimation.png");
+	width: 100px;
+	height: 100px;
+	border: 1px solid red;
 }
 .boxInfoContent {
-    background-color: red;
-    height: 100px;
-    display: block;
+	background-color: white;
+	height: 100px;
 }
 .boxContent {
-    padding: 7px;
-    background-color: rgba(255, 255, 255, 0.5);
-    font-size: 16px;
+	padding: 7px;
+	background-color: rgba(255, 255, 255, 0.5);
+	font-size: 16px;
 }
 p {
-    margin-top: 1px;
+	margin-top: 1px;
 }
