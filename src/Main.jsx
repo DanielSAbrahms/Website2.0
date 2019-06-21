@@ -3,6 +3,7 @@ import Title from "./Title";
 import Column from "./Column";
 import "./styles/main.css";
 import { Row, Col, Container } from "react-bootstrap";
+import Box from "./Box";
 
 export default class Main extends React.Component {
 	render() {
@@ -14,14 +15,16 @@ export default class Main extends React.Component {
 		var text3 =
 			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce finibus, mauris eget dictum pretium, eros arcu tincidunt justo, non mattis est ex et erat. Morbi bibendum laoreet diam, ut consequat odio scelerisque eu. Suspendisse justo purus, lobortis eu arcu sed, tincidunt condimentum lorem. Cras et neque rhoncus, porta leo sed, venenatis diam. Duis tortor ante, imperdiet ac cursus pellentesque, pharetra a nisl. Ut eu accumsan nisl, id posuere sapien. Sed in iaculis enim. Phasellus turpis tellus, pellentesque eget dolor quis, finibus egestas dui. Suspendisse potenti.";
 		const boxCollection = [
-			{ title: "Box1", content: <p>{text1}</p> },
-			{ title: "Box2", content: <p>{text2}</p> },
-			{ title: "Box3", content: <p>{text3}</p> },
-			{ title: "Box4", content: <p>{text1}</p> },
-			{ title: "Box5", content: <p>{text1}</p> },
-			{ title: "Box6", content: <p>{text2}</p> },
-			{ title: "Box7", content: <p>{text3}</p> },
-			{ title: "Box8", content: <p>{text3}</p> }
+			["Introduction", "Introduction"],
+			["ArpLite", "ArpLite"],
+			["Box1", "Text"],
+			["ArpLite", "ArpLite"],
+			["Box2", "Text"],
+			["ArpLite", "ArpLite"],
+			["Box3", "Text"],
+			["ArpLite", "ArpLite"],
+			["Box4", "Text"],
+			["Box5", "Text"]
 		];
 		for (var index = 0; index < boxCollection.length; index++) {
 			colList.push(boxCollection[index]);
