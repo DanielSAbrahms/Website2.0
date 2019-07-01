@@ -34,7 +34,7 @@ export default class Main extends React.Component {
 				<Title text={"Daniel S. Abrahms"} />
 
 				<Container className="columnBox">
-					<Row>
+					<Row className="columnBoxRow">
 						<Col xs={12} md={6} xl={4}>
 							<Column
 								boxes={colList.filter((a, i) => i % 3 === 0)}

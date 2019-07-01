@@ -7,6 +7,7 @@ import "vis/dist/vis.min.css";
 export default class ArpLite extends React.Component {
 	constructor(props) {
 		super(props);
+		this.showNotification = this.props.showNotification;
 		this.state = {
 			visTimeline: null,
 			items: new vis.DataSet([
@@ -33,9 +34,7 @@ export default class ArpLite extends React.Component {
 				options
 			)
 		}));
-		this.props.showNotification("test");
-		this.props.showNotification("test");
-		this.props.showNotification("test");
+		this.showNotification("1 This is a test notification.");
 	}
 	render() {
 		return (
